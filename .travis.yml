@@ -2,4 +2,4 @@ language: python
 python:
   - "3.5"
 # command to install dependencies bla
-script: python test_memoStack.py
+script: python -m unittest test_memo test_task test_memoStack
