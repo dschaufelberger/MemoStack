@@ -10,9 +10,6 @@ class TestMemo(TestCase):
 
     def tearDown(self):
         del self.memo
-
-    def test_test(self):
-        self.assertEqual(1,1)
         
     def test_add_new_task(self):
         task = Task("Test Task")
