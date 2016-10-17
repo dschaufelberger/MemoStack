@@ -11,6 +11,9 @@ class TestMemoStack(TestCase):
     def setUp(self):
         self.memo_stack = MemoStack()
 
+    def test_fail(self):
+        self.fail()
+        
     def test_push_on_empty_stack(self):
         memo = Memo("Test Memo")
 
