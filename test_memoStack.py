@@ -12,7 +12,7 @@ class TestMemoStack(TestCase):
         self.memo_stack = MemoStack()
 
     def test_fail(self):
-        self.fail()
+        self.assertEqual(1,0)
         
     def test_push_on_empty_stack(self):
         memo = Memo("Test Memo")
