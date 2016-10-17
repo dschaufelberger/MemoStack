@@ -3,6 +3,3 @@ python:
   - "3.5"
 # command to install dependencies
 script: python test_memoStack.py
-branches:
-  only:
-    - master
